@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+$pinkish: #af91a6;
+
+ body {
+   color: $pinkish;
+   font-size: 20px;
+   font-family: Roboto;
+ }
+
+ h1 {
+font-style: normal;
+font-weight: bolder;
+color: #30272d;
+ }
+
+ h3 {
+   color: #695f66;
+   font-size: 18px;
+   font-style: normal;
+ }
+
+ a {
+   font-style: normal;
+   text-decoration: none;
+   color: grey;
+   font-size: 15px;
+   font-weight: bolder;
+   padding: 0;
+   &:hover {
+     color: #30272d;
+   }
+ }
+
+ .link {
+   font-size: 20px;
+   color: #30272d;
+   font-style: normal;
+ }
+
+ form {
+  display: flex;
+  font-size: 25px;
+  height: 30px;
+ }
+
+input {
+  width: 500px;
+  height: 30px;
+}
+
+  input[type="submit" i] {
+    background-color: rgb(107, 140, 201);
+    border-radius: 0 5px 5px 0;
+    color: white;
+    width: 50px;
+    height: 34px;
+    border-width: 0px;
+  }
+
+  input[type="text" i] {
+    padding: 0;
+  }
+
+  .speaker {
+   font-style: italic;
+  }
+
+  #you {
+    border-left-style: solid;
+    border-color: #8b7f88;
+    padding: 0 0 0 20px;
+  }
+
+  #coach {
+    border-left-style: solid;
+    border-color: #8b7f88;
+    padding: 0 0 0 20px;
+    background-color: #f1e8ef;
+  }
+
+  ul {
+    list-style: none;
+  }

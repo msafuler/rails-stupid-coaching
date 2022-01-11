@@ -1,0 +1,11 @@
+<ul id="you">
+<li class="question"><%=params[:question]%></li>
+<li class="speaker">- You</li>
+</ul>
+
+<ul id="coach">
+<li class="answer"><%=@answer%></li>
+<li class="speaker">- Your coach</li>
+</ul>
+
+<%= link_to "Ask a new question", ask_path %>
